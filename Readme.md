@@ -22,12 +22,16 @@ If they click next time, the data loading from local Core Data
 ### Self check
 
 ✅ The app contains multiple pages of interface in a navigation controller or tab controller, or a single view controller with a view that shows and hides significant new content.
+
 ✅ The user interface includes more than one type of control.
 
 
 ✅ The app includes data from a networked source. 
+
 ✅ The networking code is encapsulated in its own classes.
+
 ✅ The app clearly indicates network activity, displaying activity indicators and/or progress bars when appropriate.
+
 ✅ The app displays an alert view if the network connection fails.
 
 
