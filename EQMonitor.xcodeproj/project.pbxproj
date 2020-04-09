@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		EE12619D243F8B2100E74BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12619C243F8B2100E74BB5 /* AppDelegate.swift */; };
 		EE12619F243F8B2100E74BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12619E243F8B2100E74BB5 /* SceneDelegate.swift */; };
-		EE1261A1243F8B2100E74BB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1261A0243F8B2100E74BB5 /* ViewController.swift */; };
 		EE1261A4243F8B2100E74BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1261A2243F8B2100E74BB5 /* Main.storyboard */; };
 		EE1261A6243F8B2200E74BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1261A5243F8B2200E74BB5 /* Assets.xcassets */; };
 		EE1261A9243F8B2200E74BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1261A7243F8B2200E74BB5 /* LaunchScreen.storyboard */; };
+		EE1261B5243F8B9900E74BB5 /* EarthQuake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE1261B3243F8B9900E74BB5 /* EarthQuake.xcdatamodeld */; };
+		EE1261B7243F8F7500E74BB5 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1261B6243F8F7500E74BB5 /* ApiClient.swift */; };
+		EE1261B9243F8FAF00E74BB5 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1261B8243F8FAF00E74BB5 /* DataController.swift */; };
+		EE1261BB243F91AC00E74BB5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1261BA243F91AC00E74BB5 /* MapViewController.swift */; };
+		EE1261BD243F91CF00E74BB5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1261BC243F91CF00E74BB5 /* ListTableViewController.swift */; };
+		EE1261BF243F91E400E74BB5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1261BE243F91E400E74BB5 /* DetailViewController.swift */; };
+		EEDCE71A243FA38D00BCA472 /* NetworkStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCE719243FA38D00BCA472 /* NetworkStruct.swift */; };
+		EEDCE71C243FA56B00BCA472 /* NetworkResultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCE71B243FA56B00BCA472 /* NetworkResultMapper.swift */; };
+		EEDCE71E243FA8AD00BCA472 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCE71D243FA8AC00BCA472 /* AlertExtension.swift */; };
+		EEDCE720243FC89F00BCA472 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = EEDCE71F243FC89F00BCA472 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE126199243F8B2100E74BB5 /* EQMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EQMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE12619C243F8B2100E74BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE12619E243F8B2100E74BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE1261A0243F8B2100E74BB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE1261A3243F8B2100E74BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE1261A5243F8B2200E74BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE1261A8243F8B2200E74BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE1261AA243F8B2200E74BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1261B4243F8B9900E74BB5 /* EarthQuake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthQuake.xcdatamodel; sourceTree = "<group>"; };
+		EE1261B6243F8F7500E74BB5 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		EE1261B8243F8FAF00E74BB5 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EE1261BA243F91AC00E74BB5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EE1261BC243F91CF00E74BB5 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		EE1261BE243F91E400E74BB5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EEDCE719243FA38D00BCA472 /* NetworkStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStruct.swift; sourceTree = "<group>"; };
+		EEDCE71B243FA56B00BCA472 /* NetworkResultMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResultMapper.swift; sourceTree = "<group>"; };
+		EEDCE71D243FA8AC00BCA472 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		EEDCE71F243FC89F00BCA472 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,7 @@
 		EE126190243F8B2100E74BB5 = {
 			isa = PBXGroup;
 			children = (
+				EEDCE71F243FC89F00BCA472 /* Readme.md */,
 				EE12619B243F8B2100E74BB5 /* EQMonitor */,
 				EE12619A243F8B2100E74BB5 /* Products */,
 			);
@@ -56,15 +75,47 @@
 		EE12619B243F8B2100E74BB5 /* EQMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				EE1261B2243F8B4600E74BB5 /* controller */,
+				EE1261B1243F8B3B00E74BB5 /* view */,
+				EE1261B0243F8B3400E74BB5 /* model */,
 				EE12619C243F8B2100E74BB5 /* AppDelegate.swift */,
 				EE12619E243F8B2100E74BB5 /* SceneDelegate.swift */,
-				EE1261A0243F8B2100E74BB5 /* ViewController.swift */,
-				EE1261A2243F8B2100E74BB5 /* Main.storyboard */,
 				EE1261A5243F8B2200E74BB5 /* Assets.xcassets */,
-				EE1261A7243F8B2200E74BB5 /* LaunchScreen.storyboard */,
 				EE1261AA243F8B2200E74BB5 /* Info.plist */,
 			);
 			path = EQMonitor;
+			sourceTree = "<group>";
+		};
+		EE1261B0243F8B3400E74BB5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EE1261B3243F8B9900E74BB5 /* EarthQuake.xcdatamodeld */,
+				EE1261B6243F8F7500E74BB5 /* ApiClient.swift */,
+				EE1261B8243F8FAF00E74BB5 /* DataController.swift */,
+				EEDCE719243FA38D00BCA472 /* NetworkStruct.swift */,
+				EEDCE71B243FA56B00BCA472 /* NetworkResultMapper.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EE1261B1243F8B3B00E74BB5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EE1261A2243F8B2100E74BB5 /* Main.storyboard */,
+				EE1261A7243F8B2200E74BB5 /* LaunchScreen.storyboard */,
+				EEDCE71D243FA8AC00BCA472 /* AlertExtension.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EE1261B2243F8B4600E74BB5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE1261BA243F91AC00E74BB5 /* MapViewController.swift */,
+				EE1261BC243F91CF00E74BB5 /* ListTableViewController.swift */,
+				EE1261BE243F91E400E74BB5 /* DetailViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +178,7 @@
 			files = (
 				EE1261A9243F8B2200E74BB5 /* LaunchScreen.storyboard in Resources */,
 				EE1261A6243F8B2200E74BB5 /* Assets.xcassets in Resources */,
+				EEDCE720243FC89F00BCA472 /* Readme.md in Resources */,
 				EE1261A4243F8B2100E74BB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1261A1243F8B2100E74BB5 /* ViewController.swift in Sources */,
+				EE1261BF243F91E400E74BB5 /* DetailViewController.swift in Sources */,
+				EE1261B9243F8FAF00E74BB5 /* DataController.swift in Sources */,
 				EE12619D243F8B2100E74BB5 /* AppDelegate.swift in Sources */,
+				EE1261BD243F91CF00E74BB5 /* ListTableViewController.swift in Sources */,
+				EEDCE71C243FA56B00BCA472 /* NetworkResultMapper.swift in Sources */,
+				EEDCE71E243FA8AD00BCA472 /* AlertExtension.swift in Sources */,
+				EE1261B5243F8B9900E74BB5 /* EarthQuake.xcdatamodeld in Sources */,
+				EEDCE71A243FA38D00BCA472 /* NetworkStruct.swift in Sources */,
 				EE12619F243F8B2100E74BB5 /* SceneDelegate.swift in Sources */,
+				EE1261B7243F8F7500E74BB5 /* ApiClient.swift in Sources */,
+				EE1261BB243F91AC00E74BB5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.sverstal.EQMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.sverstal.EQMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -338,6 +398,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE1261B3243F8B9900E74BB5 /* EarthQuake.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE1261B4243F8B9900E74BB5 /* EarthQuake.xcdatamodel */,
+			);
+			currentVersion = EE1261B4243F8B9900E74BB5 /* EarthQuake.xcdatamodel */;
+			path = EarthQuake.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EE126191243F8B2100E74BB5 /* Project object */;
 }
